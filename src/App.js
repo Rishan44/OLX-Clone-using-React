@@ -10,7 +10,7 @@ import Home from './Pages/Home';
 import { authContext } from './store/Context';
 import { onAuthStateChanged } from 'firebase/auth';
 import View from './Pages/ViewPost'
-
+ 
 
 function App() { 
   const {user,setUser} = useContext(authContext)
